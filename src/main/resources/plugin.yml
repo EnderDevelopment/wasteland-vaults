@@ -1,0 +1,17 @@
+name: WastelandVaults
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: Fallout-inspired power armor, weapons, and deployable wasteland structures.
+commands:
+  wasteland:
+    description: Get wasteland gear or create a bunker or Vault-Tec shelter.
+    usage: /wasteland <give|weapon|structure> ...
+    aliases: [waste]
+permissions:
+  wasteland.use:
+    description: Use wasteland gear, weapons, and enemy commands.
+    default: op
+  wasteland.structure:
+    description: Build wasteland structures.
+    default: op
